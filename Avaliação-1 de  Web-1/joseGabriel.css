@@ -1,0 +1,48 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+#layoutTabela{
+    display: table;
+}
+p{
+    display: table-row;
+}
+label{
+    display: table-cell;
+}
+input.alinhar{
+    display: table-cell;
+}
+#cent {
+    display:flex;
+    justify-content: center;
+}
+
+.elemTab{
+    height: 40px;
+    width: 780px;
+}
+.elemTab2{
+    height: 40px;
+    width: 580px;
+}
+th, td{
+
+    text-align-last: left;
+    border-left: 2px solid black;
+    border-right: 2px solid black
+}
+th{
+    background-color: gray;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+/*td:hover {
+    background-color: rgb(192, 22, 101);
+}*/
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
